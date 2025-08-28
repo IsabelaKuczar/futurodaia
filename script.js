@@ -20,7 +20,6 @@ const perguntas = [
         ]
     },
      {
-        enunciado: "O que se entende por “IA Generativa”, tendência forte para o futuro da tecnologia?,
-"
-     }
+        enunciado: "O que se entende por “IA Generativa”, tendência forte para o futuro da tecnologia?",
+     }f
 ]
