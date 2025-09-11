@@ -22,21 +22,21 @@ const perguntas = [
      {
         enunciado: "O que se entende por “IA Generativa”, tendência forte para o futuro da tecnologia?",
      alternativas: [
-        "Uma IA que cria novos conteúdos como textos, imagens e músicas"
+        "Uma IA que cria novos conteúdos como textos, imagens e músicas",
         "Uma IA que apenas corrige erros humanos"
      ]
     },
 {
     enunciado: "Qual é uma possível consequência econômica da automação por IA?",
     alternativas: [
-        "Redução da necessidade de energia elétrica"
+        "Redução da necessidade de energia elétrica",
         "Desemprego em setores com tarefas repetitivas"
     ]
 },
 {
     enunciado: "Como os governos podem se preparar para o avanço da IA?",
     alternativas: [
-        "Criando regulamentações e investindo em educação digital"
+        "Criando regulamentações e investindo em educação digital",
         "Substituindo todos os servidores públicos por robôs"
     ]
 },
@@ -52,8 +52,8 @@ function mostraPergunta() {
 }
 
 function mostraAlternativas() {
-    for (cost alternativa of perguntaAtual.alternativas) {
-        cost botaoAlternativas =document.createElement("button");
+    for (const alternativa of perguntaAtual.alternativas) {
+        const botaoAlternativas =document.createElement("button");
         botaoAlternativas.textContent = alternativa;
         caixaAlternativas.appendChild(botaoAlternativas);
     }
