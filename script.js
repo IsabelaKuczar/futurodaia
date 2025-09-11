@@ -21,5 +21,30 @@ const perguntas = [
     },
      {
         enunciado: "O que se entende por “IA Generativa”, tendência forte para o futuro da tecnologia?",
-     }f
-]
+     alternativas: [
+        "Uma IA que cria novos conteúdos como textos, imagens e músicas"
+        "Uma IA que apenas corrige erros humanos"
+     ]
+    },
+{
+    enunciado: "Qual é uma possível consequência econômica da automação por IA?",
+    alternativas: [
+        "Redução da necessidade de energia elétrica"
+        "Desemprego em setores com tarefas repetitivas"
+    ]
+},
+{
+    enunciado: "Como os governos podem se preparar para o avanço da IA?",
+    alternativas: [
+        "Criando regulamentações e investindo em educação digital"
+        "Substituindo todos os servidores públicos por robôs"
+    ]
+},
+];
+
+let atual = 0;
+let perguntaAtual;
+
+function mostraPergunta() {
+    perguntaAtual
+}
